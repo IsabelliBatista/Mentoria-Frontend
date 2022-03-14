@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  /* background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%); */
+  background-color: #8e5d52;
+  color: #fff;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 18px 0;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  font-size: 14px;
+}
+main {
+  border-top: 1px solid #fff2e7;
+  border-bottom: 1px solid #fff2e7;
+  padding: 50px 0 50px 0;
+}
+.section-text-with-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-text-with-img div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+h1 {
+  font-size: 64px;
+  font-family: "Righteous", cursive;
+}
+p,
+li {
+  font-family: "Sarala", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+h2 {
+  border-top: 1px solid #fff2e7;
+  font-family: "Righteous", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 20px 0;
+  padding-top: 40px;
+}
+button {
+  border: 0;
+  background: #ecd6c4;
+  padding: 10px 16px;
+  font-family: "Sarala";
+  border-radius: 10px;
+  box-shadow: 4px 5px 4px rgb(0 0 0 / 25%);
+}
+button:hover {
+  opacity: 60%;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  padding-top: 30px;
+}
+footer {
+  padding: 30px;
+}
+footer img {
+  height: 35px;
+  display: block;
+  margin: 0 auto;
+}
