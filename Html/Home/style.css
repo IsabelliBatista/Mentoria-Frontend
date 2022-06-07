@@ -96,7 +96,7 @@
 }
 
 .section-banner-slide {
-  background-image: url("img/imagemcapa.png");
+  background-image: url("img/imagem-capa.png");
   height: 280px;
   background-size: cover;
   color: #fff;
@@ -188,19 +188,14 @@
   padding: 2px 0;
 }
 
-.item-text {
+.item-text-card {
+  padding: 5px 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.item-text span {
-  font-size: 12px;
-  color: #7a7a7a;
-  padding: 3px 0;
-}
-
-.item-text h3 {
+.item-text-card h3 {
   padding: 5px 0;
   font-weight: 400;
   font-size: 12px;
@@ -214,6 +209,12 @@
 }
 
 .item-text span {
+  font-size: 12px;
+  color: #7a7a7a;
+  padding: 3px 0;
+}
+
+.item-text-card .text-over {
   font-weight: 400;
   font-size: 12px;
   text-decoration-line: line-through;
@@ -340,12 +341,6 @@ footer {
     font-size: 9px;
   }
 
-  .section-banner-slide {
-    background-image: url("img/capa-mobile.svg");
-    height: 172px;
-    padding: 24px;
-  }
-
   .section-banner-slide h1 {
     font-weight: 600;
     font-size: 32px;
@@ -369,7 +364,7 @@ footer {
   }
 
   .section-banner-slide {
-    background-image: url("img/capa-mobile.svg");
+    background-image: url("img/capa-mobile.png");
     height: 172px;
     background-size: cover;
     color: #fff;
