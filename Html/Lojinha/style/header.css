@@ -1,0 +1,108 @@
+.account-items {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.header-alert p {
+  background-color: #23263b;
+  color: #fff;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.header-account-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.header-account-bar .logo-spencer {
+  height: 30px;
+}
+
+.items-button-with-icon {
+  display: flex;
+  gap: 25px;
+}
+
+.item-customer-support,
+.item-customer-find {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.items-icon {
+  display: flex;
+  gap: 23px;
+}
+
+.item-icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.item-icon-text h3,
+.nav-menu-mobile {
+  display: none;
+}
+
+.header-menu-sector ul {
+  display: flex;
+  column-gap: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d2d2d2;
+  font-size: 14px;
+}
+
+.header-menu-search {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu-categories ul {
+  display: flex;
+  column-gap: 15px;
+  padding: 15px 0;
+  font-size: 12px;
+}
+
+.search-form {
+  border: 1px solid #888;
+  width: 250px;
+  height: 25px;
+  padding: 2px 10px;
+  font-family: "Inter";
+}
+
+@media (max-width: 820px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header-account-bar {
+    padding: 10px 20px;
+  }
+
+  .item-icon-text h3 {
+    font-weight: 400;
+    font-size: 9px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .header-menu-sector,
+  .header-menu-search,
+  .items-button-with-icon,
+  .desktop-hidden {
+    display: none;
+  }
+}
