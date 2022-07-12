@@ -6,4 +6,4 @@ No momento contem conteúdo de HTML e CSS
 
 Link para visualizar: 
 
-https://isabellibatista.github.io/Mentoria-Frontend/Html/Lojinha/Product_Detail/index.html
+https://isabellibatista.github.io/Mentoria-Frontend/
