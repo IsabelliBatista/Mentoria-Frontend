@@ -1,0 +1,23 @@
+{
+  "name": "mentoria-frontend",
+  "version": "1.0.0",
+  "description": "Mentoria para desenvolvimento em Frontend com o [@matheus](https://github.com/mxczpiscioneri)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsabelliBatista/Mentoria-Frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsabelliBatista/Mentoria-Frontend/issues"
+  },
+  "homepage": "https://github.com/IsabelliBatista/Mentoria-Frontend#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6"
+  }
+}
