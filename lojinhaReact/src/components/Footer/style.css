@@ -1,0 +1,29 @@
+.footer-logo {
+  background: #23263b;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.footer-menu {
+  background: #eaeaec;
+  padding: 20px;
+}
+
+.itens-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item-menu {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.footer-item-menu h3 {
+  padding-bottom: 13px;
+}
