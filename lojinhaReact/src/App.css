@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.header-menu-sector,
+.header-menu-search,
+.items-button-with-icon,
+.desktop-hidden {
+  display: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
