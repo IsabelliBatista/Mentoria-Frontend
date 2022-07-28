@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './components/About/index.jsx';
 import Banner from './components/Banner/index.jsx';
 import Carrossel from './components/Carrossel/index.jsx';
 import Footer from './components/Footer/index.jsx';
@@ -10,6 +11,7 @@ const App = () => {
     <Header />
     <Banner />
     <Carrossel />
+    <About />
     <Footer />
     </>
   );
